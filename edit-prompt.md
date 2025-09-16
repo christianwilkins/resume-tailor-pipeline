@@ -33,3 +33,5 @@ format and constraints
 
 output
 - return the full LaTeX source for resume.tex only. no explanations, no shell commands, no file listings.
+
+Research the company as well to fulfill this.
