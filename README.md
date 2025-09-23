@@ -1,26 +1,28 @@
-# christianwilkins/resume-latex
-Tracking how my latex resume changes and building a hosted pdf with Github Actions. Feel free to fork or copy my github workflows and watch github actions automatically validate and build your resume on release.
+# ai-powered resume tailoring system
 
-Inspired by the [resumake.io](https://github.com/saadq/resumake.io) website and created out of the desire to make an automatic latex resume build system utilizing git version control.
+automatically tailor your latex resume for specific job postings using ai. track versions and get pdfs through github releases.
 
-The latest pdf build can be downloaded [here](https://github.com/christianwilkins/resume-latex/releases/latest/download/christianwilkins_resume.pdf)
+## how to use
 
-### How to use it for your own resume
-1. Fork the repo
-2. Click on the actions tab of the forked repo and enable actions
-3. Click on the settings tab, go to actions->general on the sidebar, scroll down to workflow permissions, set to "Read and write permissions", and save.
-4. Make desired changes to `resume.tex`
-5. Click on the Releases sidebar on your Github fork, draft a new release, add a tag like `0.0.1` and click "Publish release". Your generated pdf will appear in the assets section of the release in around 2.5 minutes.
+### step 1: fork repo
+you need to fork this repo to get releases with a generated pdf like i am. this will greatly help you keep track of your applications and different versions.
 
-Make a release every time that you want to publish a new version of your resume. You can then download the pdf from the assets section or have a permanent link to the latest release with a url of the format `https://github.com/{yourUsername}/resume-latex/releases/latest/download/{yourUsername}_resume.pdf` where `{yourUsername}` is replaced with your Github username.
+### step 2: clone repo + ide setup
+clone the repo. you NEED an agentic code editor extension for vsc. i suggest copilot with github pro (free for students). but feel free to use cline, or another extension. you can also use ai ides like cursor or windsurf. anything that allows llms to read files, do online research and write latex.
 
-### How it works
-The content of the resume is stored in the [`resume.tex`](https://github.com/christianwilkins/resume-latex/blob/main/resume.tex) file. When a release is created, the [`release.yml`](https://github.com/christianwilkins/resume-latex/blob/main/.github/workflows/release.yml) workflow is ran.
+### step 3: file setup
+fill `master-resume.tex` with your resume in latex (currently filled with my resume). you can even include more than a page, if you have that much experience. the llm will pick the most important ones based on the position for you.
 
-#### Release.yml
-The following are the steps taken by [`release.yml`](https://github.com/christianwilkins/resume-latex/blob/main/.github/workflows/release.yml):
-1. `resume.tex` is built to `resume.pdf` with [xu-cheng/latex-action](https://github.com/xu-cheng/latex-action).
-2. The resulting pdf is uploaded to the latest release with the file name `{username}_resume.pdf`.
+fill `job-posting.txt` with the posting you want to apply for.
 
-### Building on Your PC
-The release workflow will automatically build a pdf on release. If you want to render locally, you can use the `build.rb` file [here](https://github.com/christianwilkins/resume-latex/blob/local-build/build.rb) and then run `pdflatex resume.tex`.
+### step 4: running it
+just open your ai agent extension and tell it to follow the edit prompt. the output will be in `resume.tex`.
+
+you will need to check if it fills up a page or not. i would suggest installing a latex pdf builder in your ide; e.g. mactex for macos; etc... or you can just use overleaf in web app.
+
+if the output is too little, too much, or some of it is a hallucinating; ask the llm or fix it yourself. this should give you either a resume that you can apply out of the gate with; or something that is a great start for tailoring a position you want.
+
+### step 5: git add, commit, and push
+when you push your new resume (in the `resume.tex` file); github actions will automatically create a pdf for it in the release tab AND name the release based on the commit message.
+
+because of this, you should name your commits the company you are applying for e.g. "meta new grad 2025" and so on... will help you keep track

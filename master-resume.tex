@@ -1,0 +1,243 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-0.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Simplified resume subheading for better ATS parsing
+% #1: Title (e.g., Company Name or Degree)
+% #2: Date Range
+% #3: Subtitle (e.g., Role or Major)
+% #4: Location
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \textbf{#1} \hfill #2 \\
+  \textit{\small#3} \hfill \textit{\small #4} \\
+  \vspace{-7pt} % Adjust vertical spacing as needed
+}
+
+% Project heading (simplified for ATS)
+% #1: Project Title and Technologies
+% #2: Date Range
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \small#1 \hfill #2 \\
+  \vspace{-7pt} % Adjust vertical spacing as needed
+}
+
+% Added this to remove 2nd line.
+\newcommand{\resumeSubheadingTwo}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+% Standard bullet point for better ATS parsing
+\renewcommand\labelitemii{\textbullet}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING---------- (Slight modification: removed underline from contact links for potentially better parsing)
+\begin{center}
+    \textbf{\Huge \scshape Christian Wilkins} \\ \vspace{1pt}
+    \small \href{mailto:christian.wilkins.careers@gmail.com}{christian.wilkins.careers@gmail.com} $|$
+    \href{https://www.linkedin.com/in/christian--wilkins/}{linkedin.com/in/christian--wilkins/} $|$
+    \href{https://github.com/christianwilkins}{github.com/christianwilkins} $|$
+    \href{https://chriswiki.com/}{chriswiki.com} % Removed \phantom{/}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Michigan State University}{December 2025}
+      {Bachelor of Science in Computer Science, Minor in Business - GPA 3.9}{East Lansing, MI}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineering Intern}{June 2025 -- August 2025}
+      {JPMorganChase}{Columbus, OH}
+    \resumeItemListStart
+        % \resumeItem{Created a clone of LinkedIn using React.js, Node.js, and Supabase to get internship offer from hackathon.}
+        % \resumeItem{Created an AI agent tool to match employees with internal jobs, won Global Hackathon of \textbf{1000+ participants.}}
+        \resumeItem{Developed an \textbf{AI-powered matching engine (scikit-learn, spaCy, PostgreSQL)} that streamlined internal job placements, winning first place at \underline{\href{https://www.linkedin.com/posts/indi-de-silva_at-jpmorganchase-our-internship-program-activity-7355579081490354177-NYLE}{JPMC Global Hackathon}} out of 1000+ participants.}
+        \resumeItem{Optimized AWS S3 data migrations for concurrency by 95\% using \textbf{concurrent.futures} and \textbf{boto3} in \textbf{Python}.}
+        \resumeItem{Implemented \textbf{PactFlow \& Jules contract testing}, reducing cross-team integration issues by 90\%.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineering Intern}{May 2024 -- August 2024}
+      {Configura}{Grand Rapids, MI}
+      \resumeItemListStart
+        \resumeItem{Engineered a custom sales extension in a \textbf{75M+ line, \href{https://support.configura.com/hc/en-us/articles/360048763074-Configura-Magic-Introduction-and-Code-Philosophy}{proprietary CM} codebase (C\#/Java-like)}, collaborating daily with clients to integrate new functionalities that directly enabled the sale of their core product.}
+        \resumeItem{Navigated a vast, undocumented system, proactively engaging senior engineers to ensure seamless integration.}
+        \resumeItem{Pioneered novel hit detection for modeled spaces in CM, preventing impossible configurations and enhancing UX.}
+      \resumeItemListEnd
+
+\resumeSubheading
+      {Undergraduate Research Assistant}{October 2023 -- April 2024}
+      {Michigan State University}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Processed HIPAA-compliant data for ML pipeline (Python, scikit-learn, NLP, CV) auto-grading medical exams.}
+        \resumeItem{Achieved 89\% validation accuracy (93\% goal), reducing exam grading time from months to days.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Board Advisor}{March 2024 -- Present}
+      {\underline{\href{https://www.imagine-software.org/}{Imagine Software}}}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Oversaw an internship-like experience for 60 students in 10 teams, checking in with each team bi-weekly.}
+        \resumeItem{Promoted and lead as President, resulting in a 100\% growth with 350+ new members through targeted outreach.}
+      \resumeItemListEnd
+
+    
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    % \resumeSubheading
+    %   {Sales Associate and Social Media Manager}{May 2023 – August 2023}
+    %   {Amazing Deli}{Midland, MI}
+    %   \resumeItemListStart
+    %     \resumeItem{Promoted specials and branding via Meta Business Suite leading to a 300\% improvement in social media traffic}
+    %     \resumeItem{Conducted point-of-sale transactions with accuracy and efficiency, maintaining an error rate consistently below 1\%}
+    % \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\underline{\textbf {\href{https://github.com/keshavbabu/shellhacks/tree/main}{hurrycane}}} $|$ \emph{Swift, MongoDB, Firebase, Go, iOS}}{September 2024 -- September 2024}
+          \resumeItemListStart
+            \resumeItem{Architected and developed \textbf{'hurrycane' (Swift iOS frontend, Go backend)}, a real-time ride-sharing app using MongoDB and Firebase for emergency evacuations, \textbf{winning Waymo @ ShellHacks 2024}.}
+            \resumeItem{Implemented \textbf{scalable, concurrent Go routing} for multi-stop routes, optimizing continuous location tracking.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{RecycleMe} $|$ \emph{Flutter, Firebase, OpenAI APIs, Trello, Python, PyTorch, TensorFlow}}{October 2023 -- April 2024}
+          \resumeItemListStart
+            \resumeItem{Led a 5-member agile team to develop RecycleMe MVP (Flutter/Dart, Firebase) in 90 days, gamifying recycling via GPT-Vision for object recognition and custom dataset (90\% accuracy). Followed + Created a spec doc.}
+            \resumeItem{Managed using Trello, fostering an environment for learning agile methodologies and full-stack development.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\underline{\textbf {\href{https://www.notelify.co/}{Notelify}}} $|$ \emph{Next.js, React, Supabase, Figma, Typescript}}{October 2023 -- April 2024}
+          \resumeItemListStart
+            \resumeItem{Developed Notelify frontend (Next.js, React) and integrated cost-effective Mozilla Speech-to-Text API with OpenAI APIs (via prompt engineering) for automated meeting summaries. Experimented with machine learning.}
+            \resumeItem{Automated note-taking via AI, reducing student effort by 95\%; won 'Best Use of AI' award (\$100).}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{ThinkedIn} $|$ \emph{Discord, LinkedIn, Mentorship}}{March 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Founded a \(\sim \)200 member organization providing career help and insight for increasing social media presence.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C, C++, JavaScript, HTML, TypeScript, Dart, Golang} \\
+     \textbf{Technologies}{: React.js, Firebase, Figma, NumPy, Flutter, Linux, Jira, AWS (S3, EC2, Lambda, RDS, DynamoDB, IAM, CloudFormation), Docker, Kubernetes, Spring Boot, Spinnaker, Git, Flask, NodeJS} \\
+     \textbf{Concepts}{: Data Structures and Algorithms, Product Management, Agile, AI/ML, Full Stack Development, Cloud Computing, DevOps, CI/CD, Microservices Architecture, Contract Testing, Data Migration, Observability, Fintech} }}
+ \end{itemize}
+ 
+%
+%-------------------------------------------
+\end{document}
