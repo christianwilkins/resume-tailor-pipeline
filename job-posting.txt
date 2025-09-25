@@ -1,51 +1,48 @@
-Overview
+About Pinterest:
 
-With continued growth in digital data and the desire to leverage data to address problems that touch all aspects of our lives, Azure Storage is growing to meet these challenges! The Azure Storage team is hiring experienced engineers to join agile and diverse engineering teams for deploying Data Processing Units (DPU) technology.
+Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product.
+
+Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the flexibility to do your best work. Creating a career you love? It’s Possible.
+
+We’re looking for inquisitive, collaborative university grads to join our engineering teams. Working closely with product, design, data, and back‑end engineers, you’ll learn how large‑scale systems operate and play a meaningful role in building new technologies, features, and tools. Expect real projects, supportive teammates, and plenty of opportunities to explore ideas that make a difference for our teams and Pinners.
+
+What you’ll do:
+
+    Deliver code that is well-documented, tested, and operable
+    Independently take ownership over the completion and quality of your tasks and project
+    Execute scoped technical tasks end-to-end in collaboration with cross-functional Pinployees to help build the future of Pinterest
+    Effectively and proactively communicate new ideas and opinions with candor as you grow both professionally and personally through learning and development opportunities
+
+What we're looking for:
+
+    Obtained a Bachelor's or Master's in Computer Science or related technical field by June 2026
+    Ability to start between January 2026 and September 2026
+    At least one year of programming experience in an object-oriented language
+    Experience in previous software engineering internships
+    Proficiency in a dynamic programming language such as Python
+    Ability to demonstrate an understanding of computer science fundamentals, including data structures and algorithms.
+    Strong communication skills and product sense
+    Passion for Pinterest and the ability to manage ambiguity and continually learn from your experiences
+
+In-Office Requirement:
+
+    We let the type of work you do guide the collaboration style. That means we're not always working in an office, but we continue to gather for key moments of collaboration and connection.
+    This role will need to be in the office for in-person collaboration [1-2 times per week] and therefore needs to be in a commutable distance from one of the following offices [San Francisco, Palo Alto, Seattle].
 
 
-As a Software Engineer - Azure Storage, you will help build performant scale out block storage on Data Processing Units (DPU) hardware. You will be involved in all phases of the storage lifecycle, design, implementation, test, deployment and support. This opportunity will allow you to learn about cloud computing as well as building and supporting cloud services at scale.
+Relocation Statement:
 
-Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond.
-Qualifications
+    This position may be eligible for relocation assistance. Visit our PinFlex page to learn more about our working model.
 
-Required Qualifications:
+#LI-HYBRID
 
-    Bachelor's Degree in Computer Science or related technical discipline
-        OR equivalent experience. 
-    Proven experience coding in C and/or C++
-    Professional and/or academic experience with storage and/or operating systems.
+#LI-FILS
 
-Other Requirements:
+At Pinterest we believe the workplace should be equitable, inclusive, and inspiring for every employee. In an effort to provide greater transparency, we are sharing the base salary range for this position. The position is also eligible for equity. Final salary is based on a number of factors including location, travel, relevant prior experience, or particular skills and expertise.
 
-    Ability to meet Microsoft, customer and/or government security screening requirements are required for this role. These requirements include, but are not limited to the following specialized security screenings: 
-        Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud Background Check upon hire/transfer and every two years thereafter.
+Information regarding the culture at Pinterest and benefits available for this position can be found here.
+US based applicants only
+$124,060—$175,140 USD
 
- 
-
-Preferred Qualifications:
-
-    Bachelor's Degree in Computer Science, or related technical field AND 1+ year(s) technical engineering experience with coding in languages including, but not limited to, C or C++
-        OR Master's Degree in Computer Science or related technical field with proven experience coding in languages including, but not limited to, C or C++
-        OR equivalent experience.
-    1+ year(s) knowledge of Windows or Linux Operating System.
-    1+ year(s) knowledge of distributed systems and storage.
-
-Software Engineering IC2 - The typical base pay range for this role across the U.S. is USD $84,200 - $165,200 per year. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $109,000 - $180,400 per year.   
-
- 
-
-Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-corporate-pay  
-
- 
-
-Microsoft will accept applications for the role until September 23, 2025.
-
- 
-
- 
-
-#Azurecorejobs
-
-#EiP
-
-#IC2SWE
+Our Commitment to Inclusion:
+Pinterest is an equal opportunity employer and makes employment decisions on the basis of merit. We want to have the best qualified people in every job. All qualified applicants will receive consideration for employment without regard to race, color, ancestry, national origin, religion or religious creed, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, age, marital status, status as a protected veteran, physical or mental disability, medical condition, genetic information or characteristics (or those of a family member) or any other consideration made unlawful by applicable federal, state or local laws. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you require a medical or religious accommodation during the job application process, please complete this form for support. 
