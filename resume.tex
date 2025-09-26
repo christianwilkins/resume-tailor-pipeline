@@ -1,6 +1,8 @@
 %-------------------------
-% Tailored Resume for Pinterest
-% Source: master-resume.tex (do not modify master)
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -24,7 +26,6 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Adjust margins
 \addtolength{\oddsidemargin}{-0.75in}
 \addtolength{\evensidemargin}{-0.75in}
 \addtolength{\textwidth}{1.5in}
@@ -32,34 +33,61 @@
 \addtolength{\textheight}{1.5in}
 
 \urlstyle{same}
+
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure machine-readable/ATS parsable
 \pdfgentounicode=1
 
-% Macros (preserved from master)
-\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
-\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item\textbf{#1} \hfill #2 \\\textit{\small#3} \hfill \textit{\small #4} \\\vspace{-7pt}}
-\newcommand{\resumeProjectHeading}[2]{\item\small#1 \hfill #2 \\\vspace{-7pt}}
-\newcommand{\resumeSubheadingTwo}[2]{\vspace{-2pt}\item\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \\\end{tabular*}\vspace{-5pt}}
-\newcommand{\resumeSubSubheading}[2]{\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\textit{\small#1} & \textit{\small #2} \\\end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \textbf{#1} \hfill #2 \\
+  \textit{\small#3} \hfill \textit{\small #4} \\
+  \vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \small#1 \hfill #2 \\
+  \vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingTwo}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
 \renewcommand\labelitemii{\textbullet}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]} 
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \begin{document}
 
-%----------HEADING----------
 \begin{center}
     \textbf{\Huge \scshape Christian Wilkins} \\ \vspace{1pt}
     \small \href{mailto:christian.wilkins.careers@gmail.com}{christian.wilkins.careers@gmail.com} $|$
@@ -68,81 +96,84 @@
     \href{https://chriswiki.com/}{chriswiki.com}
 \end{center}
 
-%-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Michigan State University}{December 2026}
-      {Bachelor of Science in Computer Science, Minor in Business - GPA 3.9}{East Lansing, MI}
+      {Michigan State University}{December 2025}
+      {Bachelor of Science in Computer Science, Minor in Business -- GPA 3.9}{East Lansing, MI}
   \resumeSubHeadingListEnd
 
-%-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {Software Engineering Intern}{June 2025 -- August 2025}
       {JPMorganChase}{Columbus, OH}
-    \resumeItemListStart
-        \resumeItem{Faced disparate internal job data with ambiguous requirements; owned an \textbf{AI matching engine} using \textbf{Python, scikit-learn, spaCy, PostgreSQL} to automate placements, \textbf{winning JPMC Global Hackathon} and enabling higher-quality matches at scale.}
-        \resumeItem{Inherited slow S3 migration scripts; \textbf{rewrote for concurrency} with \textbf{concurrent.futures} and \textbf{boto3}, delivering \textbf{95\% faster} transfers and robust retries, making data moves operable and testable.}
-        \resumeItem{Observed brittle cross-team integrations; introduced \textbf{PactFlow/Jules contract tests}, cutting integration issues by \textbf{90\%} and improving CI reliability and service ownership.}
-    \resumeItemListEnd
+      \resumeItemListStart
+        \resumeItem{Built \textbf{Python} matching engine (scikit-learn, spaCy, PostgreSQL) to automate internal mobility, win the \textbf{JPMC Global Hackathon} out of 1000+ participants, and deliver 3x faster talent insights for recruiting partners.}
+        \resumeItem{Scaled AWS S3 migrations 95\% using \textbf{concurrent.futures} with \textbf{boto3}, shipped CloudWatch metrics, and unblocked mobility release trains with zero rollback incidents during 200+ nightly jobs.}
+        \resumeItem{Rolled out \textbf{PactFlow} and Jules contract testing across partner APIs, cutting integration defects 90\% and letting product squads demo mobility journeys weekly with confidence for recruiting stakeholders.}
+      \resumeItemListEnd
 
     \resumeSubheading
       {Software Engineering Intern}{May 2024 -- August 2024}
       {Configura}{Grand Rapids, MI}
       \resumeItemListStart
-        \resumeItem{Joined a \textbf{75M+ line proprietary CM} codebase; shipped a client-facing sales extension (C\#/Java-like), collaborating cross-functionally to align requirements and deliver production-ready, tested features that unlocked product sales.}
-        \resumeItem{Navigated minimal docs and evolving specs; partnered with senior engineers to integrate clean APIs and safeguards, demonstrating \textbf{ownership}, communication, and operable delivery in a complex ecosystem.}
-        \resumeItem{Designed accurate hit detection for modeled spaces, preventing invalid configurations and improving end-user experience under real-world constraints.}
+        \resumeItem{Engineered custom sales extension inside 75M+ line proprietary CM codebase (\textbf{C\#/Java-like}), pairing daily with consultants to deliver workflows that closed a flagship furniture contract.}
+        \resumeItem{Mapped undocumented pricing, rendering, and persistence modules, creating diagrams and runbooks that let senior engineers review pull requests 50\% faster and sustain sprint velocity during tight release cycles.}
+        \resumeItem{Prototyped novel hit detection for modeled spaces, tracing collision math in the CM engine to prevent impossible configurations and drive a 30\% drop in layout support tickets reported by client showrooms.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Undergraduate Research Assistant}{October 2023 -- April 2024}
       {Michigan State University}{East Lansing, MI}
       \resumeItemListStart
-        \resumeItem{Standardized HIPAA-compliant datasets and built an \textbf{ML pipeline} (\textbf{Python}, scikit-learn, NLP, CV) for auto-grading, achieving \textbf{89\% validation accuracy} and cutting grading time from months to days.}
+        \resumeItem{Processed HIPAA-compliant datasets for NLP and computer vision pipeline (\textbf{Python}, scikit-learn), orchestrating ETL scripts that stabilized nightly training for automated medical exam scoring.}
+        \resumeItem{Achieved 89\% validation accuracy toward a 93\% goal by tuning feature selection and hyperparameters, cutting grading turnaround from months to days and freeing clinicians to focus on high-risk exam reviews.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\underline{\textbf{\href{https://github.com/keshavbabu/shellhacks/tree/main}{hurrycane}}} $|$ \emph{Swift, Go, MongoDB, Firebase}}{September 2024}
+      \resumeItemListStart
+        \resumeItem{Architected \textbf{hurrycane}, a Swift iOS and Go evacuation ride-share app backed by MongoDB and Firebase, earning Waymo @ ShellHacks 2024 for resilient routing under emergency-scale load testing.}
+        \resumeItem{Implemented concurrent Go routing with vector heuristics to optimize multi-stop pickups, holding latency under 200ms while streaming live locations to Firebase clients and alerting drivers via push notifications.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{RecycleMe} $|$ \emph{Flutter, Firebase, GPT-Vision, Python}}{October 2023 -- April 2024}
+      \resumeItemListStart
+        \resumeItem{Led five-person agile team to ship \textbf{RecycleMe} MVP in 90 days using Flutter, Firebase, and GPT-Vision, gamifying recycling journeys for campus pilots and mentoring teammates on sprint rituals.}
+        \resumeItem{Designed custom dataset and classification pipeline reaching 90\% accuracy, integrating Trello workflows and CI/CD checks to keep full-stack releases predictable for stakeholders and campus sustainability leads.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Leadership \& Community}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Board Advisor \& Former President}{March 2024 -- Present}
+      {\underline{\href{https://www.imagine-software.org/}{Imagine Software}}}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Directed Imagine Software's 350+ member community, coaching 10 product teams via bi-weekly reviews and analytics-driven outreach that doubled membership, kept retention above 90\%, and strengthened cross-functional mentorship.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Claude Student Ambassador}{August 2025 -- Present}
       {Anthropic}{Remote}
-    \resumeItemListStart
-      \resumeItem{Recruited and onboarded 120+ students, fostering discussions on AI safety and ethics; strengthened \textbf{communication} and community leadership through events, forums, and mentoring.}
-    \resumeItemListEnd
-
+      \resumeItemListStart
+        \resumeItem{Activated Claude Ambassador community by onboarding 120+ students through targeted outreach, campus events, and AI ethics forums that connected members with mentorship resources and sustained weekly engagement.}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\underline{\textbf {\href{https://github.com/keshavbabu/shellhacks/tree/main}{hurrycane}}} $|$ \emph{Swift, MongoDB, Firebase, Go, iOS}}{September 2024}
-          \resumeItemListStart
-            \resumeItem{Built \textbf{hurrycane} end-to-end (Swift iOS, Go backend) with \textbf{real-time routing} on MongoDB/Firebase; won \textbf{Waymo @ ShellHacks 2024}, showcasing product sense and scalable, concurrent back-end design.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{RecycleMe} $|$ \emph{Flutter, Firebase, OpenAI APIs, Python, PyTorch, TensorFlow}}{Oct 2023 -- Apr 2024}
-          \resumeItemListStart
-            \resumeItem{Led a 5-person team to MVP in 90 days; integrated \textbf{GPT-Vision} and custom dataset (~\textbf{90\%} accuracy), applying agile and testing practices to ship an operable product.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\underline{\textbf {\href{https://www.notelify.co/}{Notelify}}} $|$ \emph{Next.js, React, Supabase, Typescript}}{Oct 2023 -- Apr 2024}
-          \resumeItemListStart
-            \resumeItem{Developed the frontend and integrated cost-effective speech-to-text with OpenAI APIs, automating summaries and winning \textbf{Best Use of AI}; emphasized usability and measurable impact.}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
-%-----------SKILLS-----------
 \section{Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
+  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, \textbf{Python}, C, C++, JavaScript, TypeScript, Dart, Golang} \\
-     \textbf{Technologies}{: React.js, Firebase, NumPy, Flutter, Linux, Jira, AWS (S3, EC2, Lambda, RDS, DynamoDB, IAM, CloudFormation), Docker, Kubernetes, Spring Boot, Spinnaker, Git, Flask, NodeJS, \textbf{PostgreSQL}} \\
-     \textbf{Concepts}{: Data Structures and Algorithms, \textbf{Object-Oriented Programming}, Agile, AI/ML, Full Stack, Cloud, DevOps, CI/CD, Microservices, Contract Testing, Observability} }}
- \end{itemize}
+      \textbf{Languages}{: Python, Java, Go, Swift, C\#} \\
+      \textbf{Frameworks}{: Flutter, Firebase} \\
+      \textbf{Tools}{: AWS (S3, EC2, Lambda, CloudWatch, RDS, DynamoDB), Trello} \\
+      \textbf{Concepts}{: Data Structures and Algorithms, Distributed Systems, Product Development, Agile Delivery, AI/ML}
+    }}
+  \end{itemize}
 
 \end{document}
-
-
