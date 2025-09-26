@@ -1,48 +1,47 @@
-About Pinterest:
+ Position Summary
+This posting is intended for Two Sigma events, partnerships/sponsorships, outreach. The posting should not be widely distributed or published in channels outside of Two Sigma without prior consent
+Two Sigma is a financial sciences company, combining data analysis, invention, and rigorous inquiry to help solve the toughest challenges in investment management, securities, private equity, and venture capital.
 
-Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product.
+Our team of scientists, technologists, and academics looks beyond the traditional to develop creative solutions to some of the world’s most complex economic problems.
+Technology drives our business — it's our main advantage — and software engineers play a pivotal role.
 
-Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the flexibility to do your best work. Creating a career you love? It’s Possible.
+Software engineers at Two Sigma focus on analysis, experimentation, design, and elegant implementation. They build the scalable tools the organization needs to explore data's possibilities and act on our findings – to mine the past and attempt to predict the future.
 
-We’re looking for inquisitive, collaborative university grads to join our engineering teams. Working closely with product, design, data, and back‑end engineers, you’ll learn how large‑scale systems operate and play a meaningful role in building new technologies, features, and tools. Expect real projects, supportive teammates, and plenty of opportunities to explore ideas that make a difference for our teams and Pinners.
+As a Two Sigma engineer, you'll champion the rigorous, collaborative, scientific approach that allows us to meet business needs. You'll join a forward-looking, future-reaching organization to build software that will scale with the company. You'll have opportunities to learn from others and share your expertise.
 
-What you’ll do:
+We attract engineers with a real passion for data. We seek individuals who want to build for today and invent for tomorrow. We value curiosity and insight, balanced with pragmatism and practicality. We recognize both the small steps, as well as the broad vision.
+As a student, you will be hired into a general Software Engineering role and matched to a specific team 2-3 months before you start. 
+Depending on the Engineering area you join, you will take on the following responsibilities:
 
-    Deliver code that is well-documented, tested, and operable
-    Independently take ownership over the completion and quality of your tasks and project
-    Execute scoped technical tasks end-to-end in collaboration with cross-functional Pinployees to help build the future of Pinterest
-    Effectively and proactively communicate new ideas and opinions with candor as you grow both professionally and personally through learning and development opportunities
-
-What we're looking for:
-
-    Obtained a Bachelor's or Master's in Computer Science or related technical field by June 2026
-    Ability to start between January 2026 and September 2026
-    At least one year of programming experience in an object-oriented language
-    Experience in previous software engineering internships
-    Proficiency in a dynamic programming language such as Python
-    Ability to demonstrate an understanding of computer science fundamentals, including data structures and algorithms.
-    Strong communication skills and product sense
-    Passion for Pinterest and the ability to manage ambiguity and continually learn from your experiences
-
-In-Office Requirement:
-
-    We let the type of work you do guide the collaboration style. That means we're not always working in an office, but we continue to gather for key moments of collaboration and connection.
-    This role will need to be in the office for in-person collaboration [1-2 times per week] and therefore needs to be in a commutable distance from one of the following offices [San Francisco, Palo Alto, Seattle].
+    Building the underlying infrastructure that virtually every other engineering team at Two Sigma uses, such as our distributed storage and public and private cloud environments.
+    Ensuring the reliability of “mission critical” products and systems vital to Two Sigma, such as our main trading system.
+    Using a suite of open source and proprietary tools to build the environments that test and deploy our quantitative strategies, also known as models.
+    Building and maintaining the low-latency, high-performance infrastructure and systems responsible for executing trades.
+    Building and scaling the infrastructure used to ingest data from 10,000+ sources daily.
+    Partnering with our Corporate teams to develop tools, systems and products responsible for increasing productivity and efficiency across the organization.
 
 
-Relocation Statement:
+Wondering if this is the right role for you? You should possess the following qualifications:
 
-    This position may be eligible for relocation assistance. Visit our PinFlex page to learn more about our working model.
+    A Bachelor’s, Master’s, or PhD degree in a technical or quantitative field.
+    Experience with Java, C, C++, Python, Ruby, Perl, or other languages that target the JVM.
+    Experience in large-scale systems.
+    Exceptional programming skills.
+    Strong analytical, organizational, and interpersonal skills.
+    A passion of building quality software.
+    We are open-minded in our search for critical thinkers who are passionate about technology. While we analyze the data-rich domain of finance, financial experience is not a requirement.
 
-#LI-HYBRID
+You will enjoy the following benefits:
 
-#LI-FILS
+    Core Benefits: Fully paid medical and dental insurance premiums for employees and dependents, competitive 401k match, employer-paid life & disability insurance
+    Perks: Onsite gyms with laundry service, wellness activities, casual dress, snacks, game rooms
+    Learning: Tuition reimbursement, conference and training sponsorship
+    Time Off: Generous vacation and unlimited sick days, competitive paid caregiver leaves
+    Hybrid Work Policy: Flexible in-office days with budget for home office setup
 
-At Pinterest we believe the workplace should be equitable, inclusive, and inspiring for every employee. In an effort to provide greater transparency, we are sharing the base salary range for this position. The position is also eligible for equity. Final salary is based on a number of factors including location, travel, relevant prior experience, or particular skills and expertise.
+The base pay for this role will be between $165,000 and $190,000. This role may also be eligible for other forms of compensation and benefits, such as a discretionary bonus, health, dental and other wellness plans and 401(k) contributions. Discretionary bonus can be a significant portion of total compensation. Actual compensation for successful candidates will be carefully determined based on a number of factors, including their skills, qualifications and experience.
+We are proud to be an equal opportunity workplace. We do not discriminate based upon race, religion, color, national origin, sex, sexual orientation, gender identity/expression, age, status as a protected veteran, status as an individual with a disability, or any other applicable legally protected characteristics.
 
-Information regarding the culture at Pinterest and benefits available for this position can be found here.
-US based applicants only
-$124,060—$175,140 USD
+Two Sigma is committed to providing reasonable accommodations to qualified individuals in accordance with applicable federal, state, and local laws.
 
-Our Commitment to Inclusion:
-Pinterest is an equal opportunity employer and makes employment decisions on the basis of merit. We want to have the best qualified people in every job. All qualified applicants will receive consideration for employment without regard to race, color, ancestry, national origin, religion or religious creed, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, age, marital status, status as a protected veteran, physical or mental disability, medical condition, genetic information or characteristics (or those of a family member) or any other consideration made unlawful by applicable federal, state or local laws. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you require a medical or religious accommodation during the job application process, please complete this form for support. 
+If you believe you need an accommodation, please visit our website for additional information.
