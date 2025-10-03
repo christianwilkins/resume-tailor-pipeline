@@ -1,40 +1,17 @@
 
-Logo
 
-The
-Anduril
-Forge
-Program
+Our IN FOCUS program is a challenging program that invites undergraduate and graduate students who have experienced barriers to accessing advanced STEM educational opportunities [1] to meet our team and gain a deep understanding of how we solve challenges at Jane Street — including the specific concepts and tools we use in our daily work.
 
-Casting the Next Generation of American Engineers
+Over the course of a few days, we offer classes and activities in three separate tracks: software engineering, trading, and strategy and product.
 
- 
+In the trading program, students will learn about mathematical and financial topics such as probability, market structure, and arbitrage through a combination of short classroom lectures, group games, and mock trading sessions.
 
-Join the most innovative minds of your generation to build autonomous systems that protect our nation and allies while working on defense technology and products that are years ahead of the competition.
+In the software engineering program, students will learn about OCaml and the libraries and tools that we use in our everyday work, as well as the fundamentals of building electronic trading systems. Then, they’ll put these tools to use by writing the backend and UI for a computer game and a program that trades on a simulated stock exchange.
 
+In the strategy and product program, students will explore various groups across Jane Street – including treasury, compliance, operations, trading desks, technology groups, and more – to learn how we solve cross-departmental problems to drive the firm’s growth. Case studies and problem-solving exercises will give participants a glimpse into how our full-time SPs help us optimize funding and financing, set up new trading flows, respond to regulatory inquiries, and generally manage the complex mechanics that underlie Jane Street’s business.
 
- 
+The IN FOCUS program does not require a prior knowledge of finance, only an interest in seeing what a career at Jane Street might look like. Please apply only to the location nearest you.
 
-Program Overview:
+[1] To participate in this program, you must be a current undergraduate student who has experienced barriers to accessing advanced STEM educational opportunities.
 
-
-The Anduril Forge Program is your induction by fire into the most advanced defense technology being built today. Over several months, you’ll work alongside our senior engineers to solve real challenges across critical domains across every terrain. Across land, sea, air and even space: AI decision systems, autonomous vehicles, counter-drone technology, precision weapons, underwater robotics, advanced propulsion, and smart manufacturing. This isn’t theoretical work. The systems you help build will deploy to active operations, protecting our service members and allies around the world.
-
-
-
-What is the Anduril Forge Program?
-
-
-01. Real World Impact: Your code deploys to active military operations
-
-
-02. Next-Level Tech: Work with AI and autonomous systems years ahead of the industry
-
-
-03. Elite Mentorship: Learn from top tier 10x engineers redefining what’s possible
-
-04. Ownership Culture: Lead meaningful projects from day one
-
-05. Future-Ready Skills: Build expertise in the technologies that will define the next century
-
-06. Mission Purpose: Protect those who protect us
+Our definition of such barriers is broad; they could be related to personal circumstances or financial hardship. We acknowledge the breadth of challenges that could lead a high-achieving student to be under-resourced or under-exposed to advanced STEM opportunities. Examples include, but are not limited to: being a first-generation college student, identifying with an underrepresented ethnic/racial minority group, being Pell Grant eligible, having notable need for financial assistance, attending an under-resourced or rural school, coming from a marginalized community, or experiencing personal hardship. This list is not exhaustive, and we encourage any student who is interested and believes they fit the criteria for the program to apply.
