@@ -1,29 +1,40 @@
-Minimum qualifications:
 
-    Bachelor's degree in Computer Science, a similar technical field of study, or equivalent practical experience.
-    Experience working with data structures or algorithms during coursework/projects, research, internships, or practical experience in school or work (e.g. open-source coding).
-    Experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript).
+Logo
+
+The
+Anduril
+Forge
+Program
+
+Casting the Next Generation of American Engineers
+
+ 
+
+Join the most innovative minds of your generation to build autonomous systems that protect our nation and allies while working on defense technology and products that are years ahead of the competition.
 
 
-Preferred qualifications:
+ 
 
-    Master's degree in Computer Science or a related technical field.
-    Experience working with one or more of the following: web or mobile application development, Unix/Linux environments, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, or security software development.
-    Experience developing accessible technologies.
-    Ability to learn other coding languages as needed.
+Program Overview:
 
-About the job
 
-Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.
+The Anduril Forge Program is your induction by fire into the most advanced defense technology being built today. Over several months, you’ll work alongside our senior engineers to solve real challenges across critical domains across every terrain. Across land, sea, air and even space: AI decision systems, autonomous vehicles, counter-drone technology, precision weapons, underwater robotics, advanced propulsion, and smart manufacturing. This isn’t theoretical work. The systems you help build will deploy to active operations, protecting our service members and allies around the world.
 
-As a key member of a small and versatile team, you design, test, deploy and maintain software solutions.
 
-Google is an engineering company at heart. We hire people with a broad set of technical skills who are ready to take on some of technology's greatest challenges and make an impact on users around the world. At Google, engineers not only revolutionize search, they routinely work on scalability and storage solutions, large-scale applications and entirely new platforms for developers around the world. From Google Ads to Chrome, Android to YouTube, social to local, Google engineers are changing the world one technological achievement after another.
 
-The US base salary range for this full-time position is $118,000-$170,000 + bonus + equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.
-Please note that the compensation details listed in US role postings reflect the base salary only, and do not include bonus, equity, or benefits. Learn more about benefits at Google.
-Responsibilities
+What is the Anduril Forge Program?
 
-    Design, develop, test, deploy, maintain, and improve software.
-    Manage project priorities, deadlines, and deliverables.
-    Take on tasks as requested and follow through to completion despite roadblocks or distractions.
+
+01. Real World Impact: Your code deploys to active military operations
+
+
+02. Next-Level Tech: Work with AI and autonomous systems years ahead of the industry
+
+
+03. Elite Mentorship: Learn from top tier 10x engineers redefining what’s possible
+
+04. Ownership Culture: Lead meaningful projects from day one
+
+05. Future-Ready Skills: Build expertise in the technologies that will define the next century
+
+06. Mission Purpose: Protect those who protect us
