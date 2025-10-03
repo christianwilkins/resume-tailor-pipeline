@@ -1,17 +1,29 @@
+The Kleiner Perkins (KP) Fellows Program recognizes the importance of providing next-generation leaders with engineering opportunities. The KP Fellows program introduces students interested in technology and entrepreneurship to contribute to and learn from growing startups that we believe in, while receiving support from a community of peers and industry leaders.
 
+As a KP Fellow you will work directly with a Kleiner Perkins portfolio company. You’ll have an incredible summer experience which includes a curated founder speaker series, entrepreneurial workshops, and community building events. After the program, you will join an alumni community of 1,000+ up-and-coming technology leaders and successful founders, and receive continual support from KP for your entrepreneurial endeavors.
 
-Our IN FOCUS program is a challenging program that invites undergraduate and graduate students who have experienced barriers to accessing advanced STEM educational opportunities [1] to meet our team and gain a deep understanding of how we solve challenges at Jane Street — including the specific concepts and tools we use in our daily work.
+Applications are now open until 11:59pm PST on October 10. Applications will be reviewed on a rolling basis.
 
-Over the course of a few days, we offer classes and activities in three separate tracks: software engineering, trading, and strategy and product.
+What We're Looking For
 
-In the trading program, students will learn about mathematical and financial topics such as probability, market structure, and arbitrage through a combination of short classroom lectures, group games, and mock trading sessions.
+    Experience launching a meaningful product/project from scratch
 
-In the software engineering program, students will learn about OCaml and the libraries and tools that we use in our everyday work, as well as the fundamentals of building electronic trading systems. Then, they’ll put these tools to use by writing the backend and UI for a computer game and a program that trades on a simulated stock exchange.
+    Self-starters eager to make an impact
 
-In the strategy and product program, students will explore various groups across Jane Street – including treasury, compliance, operations, trading desks, technology groups, and more – to learn how we solve cross-departmental problems to drive the firm’s growth. Case studies and problem-solving exercises will give participants a glimpse into how our full-time SPs help us optimize funding and financing, set up new trading flows, respond to regulatory inquiries, and generally manage the complex mechanics that underlie Jane Street’s business.
+    Position(s) of influence in campus organization or other programs
 
-The IN FOCUS program does not require a prior knowledge of finance, only an interest in seeing what a career at Jane Street might look like. Please apply only to the location nearest you.
+    Degree in computer science, engineering, math, physics or other fields related to software engineering
 
-[1] To participate in this program, you must be a current undergraduate student who has experienced barriers to accessing advanced STEM educational opportunities.
+    Candidates available to be in the San Francisco Bay Area during their summer internships
 
-Our definition of such barriers is broad; they could be related to personal circumstances or financial hardship. We acknowledge the breadth of challenges that could lead a high-achieving student to be under-resourced or under-exposed to advanced STEM opportunities. Examples include, but are not limited to: being a first-generation college student, identifying with an underrepresented ethnic/racial minority group, being Pell Grant eligible, having notable need for financial assistance, attending an under-resourced or rural school, coming from a marginalized community, or experiencing personal hardship. This list is not exhaustive, and we encourage any student who is interested and believes they fit the criteria for the program to apply.
+What to expect
+
+    September 10 - October 10: Applications for KP Fellows are open.
+
+    By end of October: We’ll let applicants know if they have made it to the next stage of our process. Selected candidates will be shared with our Portcos with open internship positions.
+
+    By December: We’ll let applicants know if they have been selected for video interviews with KP Fellows Alumni and Staff.
+
+About Kleiner Perkins
+
+For five decades we have partnered with founders to build iconic companies that made history, including Figma, Rippling, Amazon, DoorDash, EA, Genentech, Google, Intuit, and Slack. Today, Kleiner Perkins continues that legacy, investing in founders with bold ideas that span industries and continents, partnering with them from inception to IPO and beyond to maximize the potential of their ideas, and make history. For more information, visit www.kleinerperkins.com and follow us @kleinerperkins.
