@@ -1,105 +1,37 @@
-%-------------------------
-% Cover Letter in Latex
-% Based on resume template
-%------------------------
-
-\documentclass[letterpaper,11pt]{article}
-
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
+\documentclass[11pt]{letter}
+\usepackage{geometry}
+\geometry{letterpaper, margin=1in}
 \usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\input{glyphtounicode}
+\usepackage{textcomp}
 
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.75in}
-\addtolength{\evensidemargin}{-0.75in}
-\addtolength{\textwidth}{1.5in}
-\addtolength{\topmargin}{-0.75in}
-\addtolength{\textheight}{1.5in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
-
-%-------------------------------------------
-%%%%%%  COVER LETTER STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\signature{Christian Wilkins}
+\address{Christian Wilkins\\
+christian.wilkins.careers@gmail.com\\
+\href{https://www.linkedin.com/in/christian--wilkins/}{LinkedIn} \textbar\
+\href{https://github.com/christianwilkins}{GitHub} \textbar\
+\href{https://chriswiki.com/}{chriswiki.com}}
+\date{\today}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.75em}
 
 \begin{document}
 
-%----------HEADING----------
-\begin{center}
-    \textbf{\Huge \scshape Christian Wilkins} \\ \vspace{1pt}
-    \small \href{mailto:christian.wilkins.careers@gmail.com}{christian.wilkins.careers@gmail.com} $|$
-    \href{https://www.linkedin.com/in/christian--wilkins/}{linkedin.com/in/christian--wilkins/} $|$
-    \href{https://github.com/christianwilkins}{github.com/christianwilkins} $|$
-    \href{https://chriswiki.com/}{chriswiki.com}
-\end{center}
+\begin{letter}{DoorDash Hiring Team\\DoorDash\\San Francisco, CA}
 
-\vspace{0.7in}
+\opening{Dear DoorDash Hiring Team,}
 
-\noindent
-\today
+I am writing to apply for the Software Engineer I position at DoorDash. As a Michigan State University computer science student graduating in December 2025, I am inspired by DoorDash's mission to empower local economies through a resilient three-sided marketplace.
 
-\vspace{0.5in}
+During my internship with JPMorgan Chase, I co-led an AI-powered talent matching engine that used Python, scikit-learn, spaCy, and PostgreSQL to align internal candidates with open roles, earning first place at the JPMC Global Hackathon out of 1,000+ participants. I also re-architected AWS S3 data migration pipelines with \texttt{concurrent.futures} and \texttt{boto3} to cut processing time by 95\% and introduced PactFlow contract tests across microservices, experience that mirrors DoorDash's emphasis on scalable, well-tested systems.
 
-\noindent
-Dear OpenAI Hiring Team,
+At Configura, I delivered a customer-facing sales extension inside a 75M+ line proprietary platform by partnering closely with clients and senior engineers. Designing new 3D hit detection algorithms and navigating the massive codebase strengthened my ability to ship dependable features, maintain clean architecture, and analyze performance—critical skills for evolving DoorDash's logistics infrastructure.
 
-\vspace{0.4in}
+Beyond internships, I built HIPAA-compliant ML pipelines that auto-grade standardized patient exams with 89\% validation accuracy, deepening my data engineering fundamentals. As board advisor for Imagine Software, I mentor 60 student developers on system design, APIs, and code reviews, reflecting the collaborative growth mindset DoorDash cultivates.
 
-I am writing to express my strong interest in the Software Engineer (Emerging Talent) position on the Applied Engineering team. OpenAI's mission to ensure that artificial general intelligence benefits all of humanity deeply resonates with me, and I am excited about the opportunity to contribute to technology that transcends geographic, economic, and platform barriers.
+I would be excited to bring my background in Python, Go, Java, SQL, and distributed systems to your team, learn from DoorDash mentors, and contribute to products that have tangible impact on merchants, dashers, and consumers. Thank you for your consideration; I welcome the opportunity to discuss how I can help advance DoorDash’s next generation of logistics solutions.
 
-\vspace{0.2in}
+\closing{Sincerely,}
 
-Throughout my internships and projects, I have consistently focused on building AI solutions that solve real user problems. At JPMorganChase, I developed an AI-powered matching engine using scikit-learn and spaCy that won first place in their Global Hackathon out of 1000+ participants—not just for its technical merit, but because it addressed genuine employee pain points in job placement. This experience taught me the importance of understanding user needs deeply before building solutions, a principle I see reflected in OpenAI's approach to product development.
-
-\vspace{0.2in}
-
-Your emphasis on ``iterative, collaborative, fast-paced'' development aligns perfectly with my working style. During my research at Michigan State, I built ML pipelines for medical exam grading while collaborating closely with medical professionals to ensure our AI solutions met real-world deployment requirements. Similarly, at Configura, I navigated a 75M+ line codebase while proactively engaging senior engineers and clients daily—experiences that prepared me for the ambiguous, rapidly evolving environment where OpenAI operates.
-
-\vspace{0.2in}
-
-What excites me most about this role is the opportunity to work on customer-facing ChatGPT and OpenAI API features that reach millions of users worldwide. My full-stack experience with React, Next.js, and Python, combined with my direct experience integrating OpenAI APIs in projects like Notelify (which won ``Best Use of AI''), positions me well to contribute immediately to your frontend and backend systems. I've also worked extensively with PostgreSQL and other databases, understanding the importance of optimizing applications for speed and scale.
-
-\vspace{0.2in}
-
-OpenAI's commitment to safety and responsible AI deployment particularly resonates with me. In my research work processing HIPAA-compliant data, I learned firsthand how critical it is to handle sensitive information responsibly while still extracting meaningful insights. I believe AI's transformative potential comes with the responsibility to ensure it's developed and deployed safely—a value I'm eager to uphold as part of your team.
-
-\vspace{0.2in}
-
-I'm drawn to OpenAI not just for its cutting-edge technology, but for its culture of diverse perspectives and inclusive collaboration. Having led a 550-member organization and mentored 60 students across 10 development teams, I understand how diverse viewpoints strengthen both products and teams. I'm excited to contribute to a culture that ``makes all feel welcome'' while working on technology that will shape humanity's future.
-
-\vspace{0.2in}
-
-Thank you for considering my application. I would welcome the opportunity to discuss how my passion for AI, technical skills, and collaborative approach can contribute to OpenAI's mission of ensuring AGI benefits everyone.
-
-\vspace{0.5in}
-
-\noindent
-Best regards, \\
-
-\vspace{0.3in}
-
-\noindent
-Christian Wilkins
+\end{letter}
 
 \end{document}
