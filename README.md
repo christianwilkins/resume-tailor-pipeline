@@ -15,8 +15,14 @@ fill `master-resume.tex` with your resume in latex (currently filled with my res
 
 fill `job-posting.txt` with the posting you want to apply for.
 
+if you have a live job URL, you can now seed the repo with:
+`scripts/apply-role.sh <company-slug> <job-url>`
+
 ### step 4: running it
 just open your ai agent extension and tell it to follow the edit prompt. the output will be in `resume.tex`.
+
+you can validate the page count with:
+`skills/resume-tailor/scripts/check_one_page.sh resume.tex`
 
 you will need to check if it fills up a page or not. i would suggest installing a latex pdf builder in your ide; e.g. mactex for macos; etc... or you can just use overleaf in web app.
 
