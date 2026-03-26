@@ -1,9 +1,7 @@
 %-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
+% Tailored Resume: Rilla - Software Engineer
+% Source facts: master-resume.tex
+%-------------------------
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -20,26 +18,12 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Adjust margins
 \addtolength{\oddsidemargin}{-0.75in}
 \addtolength{\evensidemargin}{-0.75in}
 \addtolength{\textwidth}{1.5in}
@@ -47,80 +31,41 @@
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
-
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
-%-------------------------
-% Custom commands
 \newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+  \item\small{{#1 \vspace{-2pt}}}
 }
 
-% Simplified resume subheading for better ATS parsing
-% #1: Title (e.g., Company Name or Degree)
-% #2: Date Range
-% #3: Subtitle (e.g., Role or Major)
-% #4: Location
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
   \textbf{#1} \hfill #2 \\
   \textit{\small#3} \hfill \textit{\small #4} \\
-  \vspace{-7pt} % Adjust vertical spacing as needed
+  \vspace{-7pt}
 }
 
-% Project heading (simplified for ATS)
-% #1: Project Title and Technologies
-% #2: Date Range
 \newcommand{\resumeProjectHeading}[2]{
   \item
   \small#1 \hfill #2 \\
-  \vspace{-7pt} % Adjust vertical spacing as needed
+  \vspace{-7pt}
 }
 
-% Added this to remove 2nd line.
-\newcommand{\resumeSubheadingTwo}[2]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-    \end{tabular*}\vspace{-5pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-% Standard bullet point for better ATS parsing
 \renewcommand\labelitemii{\textbullet}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
 
-%----------HEADING----------
 \begin{center}
     \textbf{\Huge \scshape Christian Wilkins} \\ \vspace{1pt}
     \small \href{mailto:christian.wilkins.careers@gmail.com}{christian.wilkins.careers@gmail.com} $|$
@@ -129,8 +74,6 @@
     \href{https://chriswiki.com/}{chriswiki.com}
 \end{center}
 
-
-%-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
@@ -138,69 +81,66 @@
       {Bachelor of Science in Computer Science, Minor in Business - GPA 3.9}{East Lansing, MI}
   \resumeSubHeadingListEnd
 
-%-----------EXPERIENCE-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: TypeScript, JavaScript, Python, Java, C++, SQL, Dart, Golang} \\
+     \textbf{Technologies}{: React, React Native, Node.js, PostgreSQL, Supabase, AWS, Docker, Linux, Git, GitHub Actions, Flask, Firebase} \\
+     \textbf{Concepts}{: Full Stack Development, API Design, CI/CD, Contract Testing, Distributed Systems, AI/ML} }}
+ \end{itemize}
+
 \section{Experience}
   \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Contract Full Stack Developer}{November 2025 -- February 2026}
+      {Paira Technologies LLC}{Remote}
+    \resumeItemListStart
+      \resumeItem{Owned end-to-end delivery across \textbf{React Native}, \textbf{Expo}, \textbf{Supabase}, and \textbf{Railway}, turning an early prototype into a production-ready iOS MVP.}
+      \resumeItem{Built core workflows across discovery, likes, matching, real-time chat, and push notifications with \textbf{Supabase Auth}, \textbf{PostgreSQL}, Realtime, and Edge Functions.}
+      \resumeItem{Implemented first-, second-, and third-degree connection graph features that strengthened social discovery and improved retention loops.}
+      \resumeItem{Set up CI/CD with \textbf{GitHub Actions} for lint, type-check, and tests, plus EAS TestFlight and Edge Function deploy pipelines.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer I}{February 2026 -- Present}
+      {JPMorganChase}{Columbus, OH}
+    \resumeItemListStart
+        \resumeItem{Resolved a long-standing authentication and state-management defect in about two weeks, removing forced refresh loops and restoring reliable daily testing workflows.}
+        \resumeItem{Stabilized session-state and token-handling flows across an internal web stack so auth remained consistent during long test sessions.}
+    \resumeItemListEnd
 
     \resumeSubheading
       {Software Engineering Intern}{June 2025 -- August 2025}
       {JPMorganChase}{Columbus, OH}
     \resumeItemListStart
-        \resumeItem{Built an \textbf{AI-powered matching engine} with \textbf{scikit-learn, spaCy, and PostgreSQL} for internal job placement workflows, winning first at \underline{\href{https://www.linkedin.com/posts/indi-de-silva_at-jpmorganchase-our-internship-program-activity-7355579081490354177-NYLE}{JPMC Global Hackathon}} among \textbf{1000+ participants}.}
-        \resumeItem{Optimized \textbf{AWS S3} data migrations in \textbf{Python} with \textbf{boto3} and \textbf{concurrent.futures}, improving concurrency by \textbf{95\%} for a critical internal data workflow.}
-        \resumeItem{Implemented \textbf{PactFlow} and \textbf{Jules} contract testing across teams, reducing integration issues by \textbf{90\%} and raising the bar for production quality.}
+        \resumeItem{Built an AI-powered matching engine with scikit-learn, spaCy, and PostgreSQL for internal mobility workflows; project won first place in a global hackathon with 1000+ participants.}
+        \resumeItem{Optimized AWS S3 migration concurrency by 95\% in Python with boto3 and concurrent.futures, reducing migration bottlenecks in production workflows.}
+        \resumeItem{Implemented PactFlow contract testing across services, reducing cross-team integration issues by 90\%.}
     \resumeItemListEnd
 
     \resumeSubheading
       {Software Engineering Intern}{May 2024 -- August 2024}
       {Configura}{Grand Rapids, MI}
       \resumeItemListStart
-        \resumeItem{Engineered a custom sales extension in a \textbf{75M+ line proprietary CM codebase}, collaborating with clients to ship functionality that directly enabled core product sales.}
-        \resumeItem{Navigated an undocumented system and pioneered hit detection for modeled spaces in \textbf{CM}, preventing impossible configurations and improving the product experience.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Undergraduate Research Assistant}{October 2023 -- April 2024}
-      {Michigan State University}{East Lansing, MI}
-      \resumeItemListStart
-        \resumeItem{Built a \textbf{Python} machine learning pipeline with \textbf{scikit-learn, NLP, and CV} on HIPAA-compliant data, reaching \textbf{89\%} validation accuracy and cutting grading time from months to days.}
+        \resumeItem{Shipped a client-facing extension in a 75M+ line proprietary codebase, partnering with senior engineers to deliver features in an undocumented environment.}
       \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\underline{\textbf{\href{https://www.notelify.co/}{Notelify}}} $|$ \emph{Next.js, React, Supabase, TypeScript}}{October 2023 -- April 2024}
+          {\textbf{Autonomous RC Crash Data Platform (MSU Capstone)} $|$ \emph{React, Flask, ROS2 Humble, UDP, Wi-Fi Networking}}{Fall 2025}
           \resumeItemListStart
-            \resumeItem{Developed the \textbf{Next.js} and \textbf{React} frontend, integrating Mozilla Speech-to-Text and \textbf{OpenAI APIs} to automate meeting summaries and reduce student effort by \textbf{95\%}.}
-            \resumeItem{Shipped an AI-powered note-taking workflow that won \textbf{Best Use of AI}, balancing product speed with prompt-engineering experiments and user-facing quality.}
+            \resumeItem{Built a web app that controlled an RC vehicle and replayed telemetry, integrating Flask services with UDP messaging and ROS2 for repeatable crash-data experiments.}
           \resumeItemListEnd
 
       \resumeProjectHeading
-          {\textbf{RecycleMe} $|$ \emph{Flutter, Firebase, OpenAI APIs, Python, PyTorch, TensorFlow}}{October 2023 -- April 2024}
+          {\underline{\textbf{\href{https://www.notelify.co/}{Notelify}}} $|$ \emph{Next.js, React, TypeScript, Python}}{October 2023 -- April 2024}
           \resumeItemListStart
-            \resumeItem{Led a \textbf{5-member} team to build a \textbf{Flutter/Firebase} MVP in \textbf{90 days}, training a custom computer vision dataset that reached \textbf{90\% accuracy}.}
-          \resumeItemListEnd
-
-    \resumeProjectHeading
-          {\underline{\textbf {\href{https://github.com/keshavbabu/shellhacks/tree/main}{hurrycane}}} $|$ \emph{Swift, MongoDB, Firebase, Go, iOS}}{September 2024}
-          \resumeItemListStart
-            \resumeItem{Architected a real-time ride-sharing app with a \textbf{Swift} frontend and \textbf{Go} backend on \textbf{MongoDB} and \textbf{Firebase}, winning \textbf{Waymo @ ShellHacks 2024}.}
-            \resumeItem{Implemented scalable concurrent routing for multi-stop evacuation flows, optimizing continuous location tracking in a real-time emergency use case.}
+            \resumeItem{Built an AI-powered note-taking platform with speech-to-text and summarization workflows, reducing manual note effort by 95\% in pilot usage.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
-%-----------PROGRAMMING SKILLS-----------
-\section{Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, TypeScript, Go, Dart, Java, C} \\
-     \textbf{Technologies}{: React.js, Next.js, PostgreSQL, AWS, scikit-learn, spaCy, Firebase, MongoDB, OpenAI APIs} \\
-     \textbf{Concepts}{: Full Stack Development, AI/ML, Data Processing, Cloud Infrastructure, Contract Testing, Agile} }}
- \end{itemize}
-
-%
-%-------------------------------------------
 \end{document}
