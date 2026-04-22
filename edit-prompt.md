@@ -11,7 +11,7 @@ Required workflow
 2. Read `master-resume.tex` and choose the strongest subset for the target role.
 3. Rewrite `resume.tex` only from facts already present in `master-resume.tex`.
 4. Keep the result to exactly one page, preserving readability.
-5. Compile the resume and validate the page count.
+5. Compile the resume and validate both page count and layout quality.
 6. Draft concise company-specific answers in `applications/<company>/answers.md` when the application includes short-answer fields.
 
 Constraints
@@ -24,6 +24,7 @@ Constraints
 
 Validation
 - `skills/resume-tailor/scripts/check_one_page.sh resume.tex`
+- `python3 scripts/check_resume_layout.py resume.pdf`
 
 Deliverables
 - `resume.tex`
