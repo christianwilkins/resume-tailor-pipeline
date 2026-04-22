@@ -24,4 +24,5 @@
 ## Validation
 
 Run `skills/resume-tailor/scripts/check_one_page.sh resume.tex` after edits.
-The script should compile the PDF and fail if the output is not exactly one page.
+Then run `python3 scripts/check_resume_layout.py resume.pdf`.
+The first check enforces one page. The second checks first-page fullness plus bullet widow quality using first-page line geometry.
