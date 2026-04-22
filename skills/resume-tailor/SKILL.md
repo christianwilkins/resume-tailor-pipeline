@@ -21,7 +21,7 @@ Use this skill for this repo's standard application workflow.
 4. Write `resume.tex` only from facts present in `master-resume.tex`.
 5. Align wording to the role truthfully, but do not invent technologies, outcomes, titles, dates, or metrics.
 6. Draft company-specific answers into `applications/<company>/answers.md`.
-7. Validate the PDF with `skills/resume-tailor/scripts/check_one_page.sh resume.tex`.
+7. Validate the PDF with both `skills/resume-tailor/scripts/check_one_page.sh resume.tex` and `python3 scripts/check_resume_layout.py resume.pdf`.
 
 ## Resume Rules
 
@@ -30,6 +30,7 @@ Use this skill for this repo's standard application workflow.
 - Every kept line should prove one of: technical depth, ownership, product velocity, customer impact, or direct role match.
 - Keep the skills section consistent with technologies named elsewhere in the resume.
 - Preserve the existing LaTeX macros and formatting patterns unless a layout change is necessary to stay on one page.
+- Prefer fixing ugly wraps by rewriting or swapping bullets, not by lowering layout standards.
 
 ## Application Answers
 
